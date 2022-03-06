@@ -1,0 +1,84 @@
+{
+  "spot": 1,
+  "futures": 1,
+  "api_key": "###",
+  "secret_key": "###",
+  "leverage": 1,
+  "spot_sell_bound": 10.5,
+  "delay": 1,
+  "delay_before_refresh": 5,
+  "totalpnl": 0,
+  "trading_pairs_futures": {
+    "VETUSDT": {
+      "longs": [
+        [
+          0.2,
+          150,
+          0
+        ],
+        [
+          1,
+          150,
+          0
+        ],
+        [
+          2,
+          150,
+          0
+        ]
+      ],
+      "shorts": [
+        [
+          0.2,
+          150,
+          0
+        ],
+        [
+          1,
+          150,
+          0
+        ],
+        [
+          2,
+          150,
+          0
+        ]
+      ],
+      "maopen_period": 3,
+      "maopen_offset": 0,
+      "maclose_period": 3,
+      "maclose_offset": 0,
+      "maopen_source": "OHLC4",
+      "maclose_source": "OHLC4",
+      "timeframe": 180
+    }
+  },
+  "trading_pairs_spot": {
+    "VETUSDT": {
+      "longs": [
+        [
+          0.2,
+          15,
+          0
+        ],
+        [
+          1,
+          15,
+          0
+        ],
+        [
+          2,
+          15,
+          0
+        ]
+      ],
+      "maopen_period": 3,
+      "maopen_offset": 0,
+      "maclose_period": 3,
+      "maclose_offset": 0,
+      "maopen_source": "OHLC4",
+      "maclose_source": "OHLC4",
+      "timeframe": 180
+    }
+  }
+}
